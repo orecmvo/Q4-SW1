@@ -55,7 +55,15 @@
 		<div class="col-xl-9">
 			<center><img src="wallet.png" width="150px"></center>
 <br>
-		<p class="h5">100 Pesos in Pound is <span>1.40!</span></p>
+		<script type="text/javascript">
+
+			let x = 100;
+			let y = 0.014 / 1;
+			let z = x * y;
+
+			document.getElementById("pound").innerHTML = "100 Pesos in Pound is " + z;
+
+		</script>
 
 <br>
 		</div>
